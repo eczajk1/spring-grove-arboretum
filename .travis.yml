@@ -5,7 +5,7 @@ before_script:
   - 'export CHROME_BIN=chromium-browser'
   - 'export DISPLAY=:99.0'
   - 'sh -e /etc/init.d/xvfb start'
-  - 'npm install -g bower karma karma-phantomjs-launcher grunt-cli grunt-karma jshint jasmine-core karma-jasmine phantomjs-prebuilt'
+  - 'npm install -g bower grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs-prebuilt'
   - 'npm install'
   - 'bower install'
   - 'gem install sass --version "=3.4.18"'
