@@ -1,5 +1,7 @@
 # arboretum
 
+[![Build Status](https://travis-ci.org/eczajk1/spring-grove-arboretum.svg?branch=master)](https://travis-ci.org/eczajk1/spring-grove-arboretum)
+
 Spring Grove Arboretum website
 
 Other Arboretum webpages:
