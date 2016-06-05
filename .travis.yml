@@ -11,4 +11,3 @@ before_script:
 
 after_script:
   - 'grunt build'
-  - 'grunt test'
