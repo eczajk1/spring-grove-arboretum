@@ -10,6 +10,4 @@ before_script:
   - 'bower install'
   - 'gem install sass --version "=3.4.18"'
   - 'gem install compass --version "=1.0.3"'
-
-after_script:
   - 'grunt build'
