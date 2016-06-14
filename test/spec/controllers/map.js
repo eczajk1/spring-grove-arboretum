@@ -12,12 +12,13 @@ describe('Controller: MapCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
     MapCtrl = $controller('MapCtrl', {
-      $scope: scope
-      // place here mocked dependencies
+      $scope: scope,
+      mapDefaults: {},
+      basemap: { something: 'blarg' }
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(MapCtrl.awesomeThings.length).toBe(3);
+  it('should attach an object for layers', function () {
+    expect(MapCtrl.layers).toBeDefined();
   });
 });

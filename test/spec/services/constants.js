@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: constants', function () {
+describe('Service: mapDefaults', function () {
 
   // load the service's module
   beforeEach(module('arboretumApp'));
 
   // instantiate service
-  var constants;
-  beforeEach(inject(function (_constants_) {
-    constants = _constants_;
+  var mapDefaults;
+  beforeEach(inject(function (_mapDefaults_) {
+    mapDefaults = _mapDefaults_;
   }));
 
   it('should do something', function () {
-    expect(!!constants).toBe(true);
+    expect(mapDefaults).toBeDefined();
   });
 
 });
