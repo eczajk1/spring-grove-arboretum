@@ -1,3 +1,17 @@
 .navbar-img {
   padding: 15px 5px;
 }
+.navbar-brand {
+  height: auto;
+}
+.navbar-brand>img {
+  width: 275px;
+}
+@media (min-width: 768px) {
+  .navbar-nav-container {
+    position: absolute;
+    bottom: 15px;
+    left: 300px;
+    right: 15px;
+  }
+}
