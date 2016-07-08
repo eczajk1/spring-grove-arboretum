@@ -19,6 +19,6 @@ describe('Controller: MapCtrl', function () {
   }));
 
   it('should attach an object for layers', function () {
-    expect(MapCtrl.layers).toBeDefined();
+    expect(scope.layers).toBeDefined();
   });
 });
