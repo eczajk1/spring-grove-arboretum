@@ -36,6 +36,16 @@ angular
         controller: 'MapCtrl',
         controllerAs: 'mmap'
       })
+      .when('/outreach', {
+        templateUrl: 'views/outreach.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
+      .when('/catonsville-tree-canopy', {
+        templateUrl: 'views/catonsville-tree-canopy.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
       .otherwise({
         redirectTo: '/'
       });

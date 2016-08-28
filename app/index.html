@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Spring Grove Arboretum</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -15,6 +15,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/theme.css">
     <!-- endbuild -->
 
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
@@ -59,6 +60,16 @@
               <ul class="nav navbar-nav">
                 <li><a ng-href="#/">Home</a></li>
                 <li><a ng-href="#/map">Map</a></li>
+
+                <li class="dropdown">
+                   <a href role="button" class="dropdown-toggle" data-toggle="dropdown">Outreach<b class="caret"></b></a>
+
+                   <ul class="dropdown-menu">
+                     <li><a href="#/catonsville-tree-canopy">Catonsville Tree Canopy Project</a></li>
+                   </ul>
+
+                 </li>
+
                 <li><a ng-href="#/about">About</a></li>
                 <!-- <li><img class="navbar-img" src="images/donate_sample_sm.gif" /></li> -->
               </ul>
@@ -72,7 +83,7 @@
       </div>
     <!-- </div> -->
 
-    <div class="container">
+    <div class="container main-container">
       <div ng-view=""></div>
     </div>
 
@@ -82,18 +93,15 @@
         <div class="col-xs-9">
           <address>
             <strong>Spring Grove Arboretum</strong><br>
-            123 Main Street<br>
-            Catonsville, MD 21228
+            <a href="https://www.facebook.com/SGArboretum/"><i class="fa fa-facebook-official fa-2x"></i></a>
           </address>
         </div>
 
         <div class="col-xs-3">
           <address>
-            (123) 456-7890<br>
-            <a href="mailto:eric.czajkowski@gmail.com">E-mail</a><br>
-          <i class="fa fa-twitter fa-2x"></i>
-          <i class="fa fa-facebook-official fa-2x"></i>
-          <i class="fa fa-instagram fa-2x"></i>
+          <!-- <i class="fa fa-twitter fa-2x"></i> -->
+          <!-- <a href="https://www.facebook.com/SGArboretum/"><i class="fa fa-facebook-official fa-2x"></i></a> -->
+          <!-- <i class="fa fa-instagram fa-2x"></i> -->
         </address>
         </div>
 
