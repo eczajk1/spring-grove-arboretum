@@ -46,6 +46,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/executive-statement', {
+        templateUrl: 'views/executive-statement.html',
+        controller: 'ExecutivestatementCtrl',
+        controllerAs: 'exec'
+      })
       .otherwise({
         redirectTo: '/'
       });
