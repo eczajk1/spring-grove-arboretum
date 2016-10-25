@@ -18,6 +18,6 @@ describe('Controller: AboutCtrl', function () {
   }));
 
   it('should be a thing', function () {
-    expect(AboutCtrl).toBeDefined()
+    expect(AboutCtrl).toBeDefined();
   });
 });
