@@ -8,6 +8,6 @@
  * Controller of the arboretumApp
  */
 angular.module('arboretumApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function () {
 
   });
